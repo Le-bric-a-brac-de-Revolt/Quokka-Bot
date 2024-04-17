@@ -15,7 +15,7 @@ module.exports.RediectInteractionsSelectMenues = async (client, interaction) => 
 
         
      } catch (err) {
-        const files = require(`../../Functions/erreur_cmds.js`);
+        const files = require(`../Functions/erreur_cmds.js`);
         files.err_cmds(client, interaction, err);
      }
 }
