@@ -12,12 +12,6 @@ module.exports.RediectInteractionsBoutons = async (client, interaction) => {
             I_bot_maj.maj_bot_info(client, interaction,)
          }
 
-         // RÔLES
-          if ( interaction.customId.includes(`autorôle`)){
-               const I_bot_maj = require('../interactions_multiples/Autres/autorôle');
-                I_bot_maj.autorôle(client, interaction,)
-            }
-
         ////////// MODERATION 
         // Inclure
         if (interaction.customId.includes(`btn_Inclure`)){
